@@ -51,6 +51,11 @@ header p{
     text-decoration:none;
     border-radius:10px;
     font-size:20px;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#1976d2;
 }
 
 .container{
@@ -85,6 +90,54 @@ ul{
 .gallery img:hover{
     transform:translateY(-8px) scale(1.03);
     box-shadow:0 20px 40px rgba(0,0,0,.35);
+}
+
+.download-card{
+    background:linear-gradient(135deg,#0d47a1,#2196f3);
+    border-radius:25px;
+    color:white;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    min-height:560px;
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
+}
+
+.download-card img{
+    width:100%;
+    max-width:220px;
+    border-radius:18px;
+    margin-bottom:20px;
+    box-shadow:none;
+}
+
+.download-card h3{
+    margin:10px 0;
+    font-size:28px;
+}
+
+.download-card p{
+    font-size:18px;
+    line-height:1.5;
+    margin:20px 0 30px;
+}
+
+.download-card a{
+    display:inline-block;
+    background:white;
+    color:#0d47a1;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:10px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.download-card a:hover{
+    background:#f2f2f2;
 }
 
 footer{
@@ -150,7 +203,7 @@ and keep your travel history organized.
 
 <img src="USStayTracker_Home_1284x2778.png" alt="Home" loading="lazy">
 
-<img src="USStayTracker_HomeStatus_1284x2778.png" alt="Current Status" loading="lazy">
+<img src="USStayTracker_HomeStatus_1284x2778.png" alt="Home Status" loading="lazy">
 
 <img src="USStayTracker_HomeSafe_1284x2778.png" alt="Trip Summary" loading="lazy">
 
@@ -165,6 +218,22 @@ and keep your travel history organized.
 <img src="USStayTracker_Planner_Form_1284x2778.png" alt="Planner Form" loading="lazy">
 
 <img src="USStayTracker_Settings_1284x2778.png" alt="Settings" loading="lazy">
+
+<div class="download-card">
+
+<img src="feature-image.png" alt="US Stay Tracker">
+
+<h3>Download US Stay Tracker</h3>
+
+<p>
+Know exactly how many days you've spent in the United States, plan future trips, and stay within your travel limits.
+</p>
+
+<a href="https://play.google.com/store/apps/details?id=com.gilbertfreight.usstaytracker">
+Download on Google Play
+</a>
+
+</div>
 
 </div>
 
